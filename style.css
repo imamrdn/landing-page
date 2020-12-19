@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*   {
+    margin: 0;
+    box-sizing: border-box;
+}
+body    {
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-img {
+    position: absolute;
+    margin: 0;
+    padding : 20px;
+}
+
+ul{
+    margin-right: 30px;
+}
+
+li {
+    display: inline;
+    float: right;
+    padding-right: 10px;
+    margin: 20px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: honeydew;
+    font-size: larger;
+}
+
+#header-img {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 6%;
+}
+
+.container  {
+    padding: 2em;
+}
+.form   {
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 16%;
+    width: 50%;
+    text-align: justify;
+}
+
+#home   {
+    background: linear-gradient(to right, rgba(255, 59, 59, 0.932) , rgb(72, 72, 184),); /* Standard syntax */
+	background: -webkit-linear-gradient(left, rgba(255, 59, 59, 0.932) , rgb(72, 72, 184)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgb(255, 59, 59) , rgb(58, 58, 255)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgb(255, 59, 59) , rgb(58, 58, 255)); /* For Firefox 3.6 to 15 */
+
+}
+
+.title  {
+    text-align: center;
+}
+
+form p  {
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    color: honeydew;
+}
+
+input[type=email]   {
+    width: 50%;
+    height: 3em;
+    border-color: white;
+    border-width: 0.1em;
+    border-radius: 1em;
+    background-color: transparent;
+    box-shadow: none;
+    border-style: solid;
+}
+
+::placeholder   {
+    padding: 10px;
+    color: whitesmoke;
+}
+
+input[type=submit]  {
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 1em;
+    border-width: 0.1em;
+    border-color: white;
+    border-style: solid;
+    padding: 0.6em;
+    background-color: transparent;
+    cursor: pointer;
+    outline-style: none;
+    color: honeydew;
+}
+
+.title p {
+    padding-top: 1em;
+}
