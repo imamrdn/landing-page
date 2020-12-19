@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body    {
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -101,3 +102,33 @@ input[type=submit]  {
 .title p {
     padding-top: 1em;
 }
+
+video  {
+    margin: 0 auto;
+    display: block;
+
+    padding: 2em;
+}
+
+#about{
+    background-color: #f4eeff;
+}
+
+.flex-container    {
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    input[type=submit], input[type=email]  {
+        width: 100%;
+    }
+  }
